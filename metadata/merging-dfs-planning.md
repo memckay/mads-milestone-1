@@ -6,7 +6,7 @@
 | AnimalType                | Animal_Type          | Type   | animal_type                                              |
 | PrimaryBreed              | Animal_Breed         | Breed   | breed                                                    |
 | PrimaryColor              | -                    | Color   | primary_color                                            |
-| Age                       | -                    | -   | age                                                      |
+| Age                       | -                    | Date Of Birth   | age                                                      |
 | Sex                       | -                    | Sex   | sex                                                      |
 | IntakeType                | Intake_type          | Intake Type   | intake_type                                              |
 | IntakeCondition           | Intake_Condition     | Intake Condition   | intake_condition                                         |
