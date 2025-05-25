@@ -67,8 +67,6 @@
   - Create `intake_datetime` from `Intake_Date` + `Intake_Time`  
   - Create `outcome_datetime` from `Outcome_Date` + `Outcome_Time`  
   - Cast both to `datetime64[ns]`
-  - Handle data misentries for invalid times (Example: 2025-09-27) 
-    - The current date is 2025-05-25
 
 * **Text Clean-Up** – strip whitespace and apply title-case to key string columns:  
   `animal_type`, `breed`, `primary_color`, `intake_type`, `intake_condition`, `outcome_type`.
@@ -84,4 +82,4 @@
 
 ## 5 · Ethical Considerations
 
-Outcome categories include euthanasia; analyses will carefully contextualize these actions and avoid breed-based stigma by presenting aggregated rates alongside known limitations in breed identification accuracy and regional reporting variations.
+Outcome categories include euthanasia; results will be framed responsibly. We will avoid breed-based stigma when analysing `Outcome_Type` by `Animal_Breed`, presenting grouped statistics with context.
