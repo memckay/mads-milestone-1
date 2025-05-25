@@ -7,7 +7,7 @@
 | Item | Value |
 |------|-------|
 | **Dataset name** | Dallas Animal Shelter – Fiscal Years 2023-2025 |
-| **Source** | City of Dallas Open Data Portal ([Dallas Animal Shelter Data – FY 2023-2025](https://data.cityofdallas.org/Animal-Shelter/Dallas-Animal-Shelter-Data-Fiscal-Year-2023-2025/uyte-zi7f)) |
+| **Source** | City of Dallas Open Data Portal ([Dallas Animal Shelter Data – FY 2023-2025](https://www.dallasopendata.com/Services/Dallas-Animal-Shelter-Data-Fiscal-Year-2023-2025/uyte-zi7f/about_data)) |
 | **Access method** | Download CSV from portal |
 | **Local file** | `Dallas_Animal_Shelter_Data_Fiscal_Year_2023-2025_20250514.csv` |
 | **Records** | **65063** (pull dated 14 May 2025) |
