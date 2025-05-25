@@ -78,7 +78,6 @@
 
 * **Schema Ordering** – reorder to the agreed `FINAL_SCHEMA` list for a consistent Silver schema.
 
-
 ---
 
 ## 5 · Ethical Considerations
