@@ -78,7 +78,7 @@
   `type`, `breed`, `color`, `sex`, `size`, `intake_type`, `intake_condition`, `outcome_type`, `outcome_condition`.  
 * **Category Mapping** – apply `VALUE_MAPPINGS` for intake/outcome fields to unify terminology.  
 * **Dtype Enforcement** – cast mapped fields to `category` and dates to `datetime64` per `SILVER_DTYPES`.  
-* **Schema Ordering** – reorder to `FINAL_SCHEMA` for a consistent Silver schema.  
+* **Schema Ordering** – reorder to `FINAL_SCHEMA` for a consistent Silver schema.
 
 ---
 
