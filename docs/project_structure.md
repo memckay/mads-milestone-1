@@ -50,8 +50,11 @@ This folder contains our data assets. It contains the following sub-folders:
 This folder contains raw data assets that we sourced for this project.
 
 The links below show where we obtained these from:
-* ...
-* ...
+* [`Dallas`](https://www.dallasopendata.com/Services/Dallas-Animal-Shelter-Data-Fiscal-Year-2023-2025/uyte-zi7f/about_data)
+
+* [`San Jose`](https://data.sanjoseca.gov/dataset/animal-shelter-intake-and-outcomes/resource/f3354a37-7e03-41f8-a94d-3f720389a68a)
+
+* [`Sonoma County (SoCo)`](https://data.sonomacounty.ca.gov/Government/Animal-Shelter-Intake-and-Outcome/924a-vesw/about_data)
 
 ### `/bronze/`
 
