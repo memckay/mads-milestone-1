@@ -1,0 +1,5 @@
+seaborn>=0.12
+pandas>=2.2
+matplotlib>=3.7
+pyarrow>=20.0 # needed to write into parquet using pandas (changed the versions based on dependencies and conflicts)  
+matplotlib>=3.7 # needed to include for EDA in silver 
