@@ -61,25 +61,14 @@ The links below show where we obtained these from:
 This folder contains the bronze data assets. These are parquet files containing the raw data from the source. Date columns are explicitely marked as dates to simplify downstream processing.
 
 
-## `/notebooks/`
+### `/silver/`
 
-This folder will contain Data Cleansing notebooks, EDA notebooks, Correlation Analysis notebooks, Time series notebooks, and data visualization notebooks.
+This folder contains the silver data asset. This is a parquet file which contains cleaned and transformed data from bronze. 
 
-### `/elt/`
+## `/notebooks/elt`
 
 This folder contains the following Notebooks, used for our Extract, Transform, Load (ELT) process.
 
 * [`1_bronze.ipynb`](../notebooks/elt/1_bronze.ipynb)
 * [`2_silver.ipynb`](../notebooks/elt/2_silver.ipynb)
-
-...
-
-## `/reports/`
-
-We will have the WIP report (observations in the analysis)
-Milestone Project proposal
-Milestone 1 draft report 
-
-## `/visualizations/`
-
-...
+* [`3_gold.ipynb`](../notebooks/elt/3_gold.ipynb)
