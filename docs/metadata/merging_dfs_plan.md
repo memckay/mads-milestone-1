@@ -11,8 +11,8 @@
 | Sex                       | -                    | Sex   | sex                                                      |
 | IntakeType                | Intake_type          | Intake Type   | intake_type                                              |
 | IntakeCondition           | Intake_Condition     | Intake Condition   | intake_condition                                         |
-| IntakeReason              | reason               | -   | intake_reason                                            |
+| IntakeReason              | Reason               | -   | intake_reason                                            |
 | IntakeDate                | Intake_Date          | Intake Date   | intake_date                                              |
-| OutcomeType               | outcome_type         | Outcome Type   | outcome_type                                             |
-| OutcomeDate               | outcome_date         | Outcome Date   | outcome_date                                             |
+| OutcomeType               | Outcome_Type         | Outcome Type   | outcome_type                                             |
+| OutcomeDate               | Outcome_Date         | Outcome Date   | outcome_date                                             |
 
