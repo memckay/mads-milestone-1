@@ -62,6 +62,7 @@
 
 * **Column Pruning** – drop low-value or constant fields:  
   `Tag_Type`, `Service_Request_Number`, `Activity_Number`, `Additional_Information`.
+  > Focus on common columns of interest which are prevalent across regions.
 
 * **Datetime Consolidation** – merge date + time into unified timestamp fields:  
   - Create `intake_datetime` from `Intake_Date` + `Intake_Time`  

@@ -9,7 +9,7 @@
 | **Dataset name**     | San Jose Animal Shelter Outcomes (2024–2025)                                                               |
 | **Source**           | City of San José Open Data Portal ([Animal Shelter Outcomes](https://data.sanjoseca.gov/dataset/animal-shelter-intake-and-outcomes/resource/f3354a37-7e03-41f8-a94d-3f720389a68a)
 )                 |
-| **Access method**    | Download CSV via Socrata export or API pull                                                                |
+| **Access method**    | JSON Pulled from API                                                               |
 | **Local file**       | `san_jose_animal_shelter_outcomes_20250524.csv`                                                            |
 | **Records**          | **16 274** (snapshot dated 24 May 2025)                                                                    |
 | **Columns**          | **22**                                                                                                     |
@@ -92,4 +92,3 @@
 ## 5 · Ethical Considerations
 
 Includes animal euthanasia events; analyses will contextualize these outcomes responsibly and avoid attributing judgments without operational context.  
-I have
