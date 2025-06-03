@@ -20,3 +20,5 @@ Below you can find the available documentation for this project:
     * [Dallas Animal Shelter](./docs/metadata/dallas_animal_shelter_metadata.md): Background information for the Dallas Dataset.
     * [San Jose Animal Shelter](./docs/metadata/san_jose_animal_shelter_metadata.md): Background information for the San Jose Dataset.
     * [Sonoma County (SoCO) Animal Shelter](./docs/metadata/sonoma_county_animal_shelter_metadata.md): Background information for the Sonoma County (SoCo) Dataset.
+
+---
