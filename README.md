@@ -16,7 +16,7 @@ Below you can find the available documentation for this project:
 
 * [Project Structure](./docs/project_structure.md): The high-level structure of the project.
 * Metadata
-    * [Merging DFs Planning](./docs/metadata/merging-dfs-planning.md): How we planned to merge different Dataframes together.
+    * [Merging DFs Planning](./docs/metadata/merging_dfs_plan.md): How we planned to merge different Dataframes together.
     * [Dallas Animal Shelter](./docs/metadata/dallas_animal_shelter_metadata.md): Background information for the Dallas Dataset.
     * [San Jose Animal Shelter](./docs/metadata/san_jose_animal_shelter_metadata.md): Background information for the San Jose Dataset.
     * [Sonoma County (SoCO) Animal Shelter](./docs/metadata/sonoma_county_animal_shelter_metadata.md): Background information for the Sonoma County (SoCo) Dataset.
