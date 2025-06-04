@@ -7,6 +7,12 @@ seaborn>=0.12
 # Parquet support for pandas
 pyarrow==20.0.0
 
+# Statisical portion
+scipy>=1.10.0
+
+# HHTP Requests
+requests>=2.28.0
+
 # Linting & hooks
 ruff==0.7.1
 pre-commit==4.2.0
