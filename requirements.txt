@@ -1,0 +1,12 @@
+# Core data libs
+pandas>=2.2.2
+numpy==1.26.4
+matplotlib==3.9.2
+seaborn==0.13.2
+
+# Parquet support for pandas
+pyarrow==20.0.0
+
+# Linting & hooks
+ruff==0.7.1
+pre-commit==4.2.0
