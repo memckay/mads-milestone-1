@@ -19,12 +19,11 @@ flowchart LR
     B --> C
 ```
 
-## Research Question
+## Research Questions
 
-**How do shelter intake characteristics (breed, age, intake condition) relate to outcome rates (adoption, transfer, euthanasia)?**  
-- Which factors most strongly predict adoption success?  
-- Are there seasonal or regional patterns in intake volume and outcomes?  
-- How does length-of-stay vary by breed, age cohort, or intake condition?
+- Are there any observable trends in shelter intake volumes, animal demographics, and outcome rates?
+- Which animal populations (by breed, age, or condition) face the greatest challenges in achieving positive outcomes?
+- Which categorical intake attributes are most associated with adoption outcomes?
 
 # Local Setup
 
