@@ -3,6 +3,22 @@ Welcome to our the **MADS Milestone 1 project**!
 
 This repository is structured around the Medallion Architecture as inspiration. We organize our work into Bronze (raw ingestion), Silver (data cleaning & enrichment), and Gold (analysis-ready summaries) layers. We apply this framework to animal shelter intake and outcome data from Dallas, San Jose, and Sonoma County.
 
+```mermaid
+flowchart LR
+    A([Bronze])
+    %% Bronze styling - brown/bronze color
+    style A fill:#cd7f32,stroke:#8b4513,stroke-width:3px,color:#fff
+    B([Silver])
+    %% Silver styling - silver/gray color
+    style B fill:#c0c0c0,stroke:#708090,stroke-width:3px,color:#000
+    C([Gold])
+    %% Gold styling - gold/yellow color
+    style C fill:#ffd700,stroke:#b8860b,stroke-width:3px,color:#000
+
+    A --> B
+    B --> C
+```
+
 ## Research Question
 
 **How do shelter intake characteristics (breed, age, intake condition) relate to outcome rates (adoption, transfer, euthanasia)?**  
