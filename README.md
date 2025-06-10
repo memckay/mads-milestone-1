@@ -10,6 +10,32 @@ This repository is structured around the Medallion Architecture as inspiration. 
 - Are there seasonal or regional patterns in intake volume and outcomes?  
 - How does length-of-stay vary by breed, age cohort, or intake condition?
 
+# Local Setup
+
+To get started, you can run the commands below to setup a Virtual Environment using the conda python package manager.
+
+If needed, install conda below:
+
+``` bash
+brew install miniconda
+conda init zsh
+
+conda install python=3.12 -n base
+conda activate base
+```
+
+Then, you can run:
+
+``` bash
+chmod +x .init.sh
+
+./.init.sh
+```
+
+This will install the `ipykernel` so that your local environment works properly. Any other virtual environment tooling can be used, if prefered.
+
+This will also pre-install packages defined in your `requirements.txt` file.
+
 # Docs
 
 Below you can find the available documentation for this project:
