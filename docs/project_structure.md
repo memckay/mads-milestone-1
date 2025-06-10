@@ -1,8 +1,7 @@
 # Project Structure
 
-The folders below contain key information for the project
+The folders below contain key information for the project.
 
-## `/`
 
 On the top-level folder, you will find the following files:
 
@@ -37,11 +36,13 @@ This file contains the README for the project.
 
 This file contains the License, Terms, and Agreements for all using this project. We are using the MIT license.
 
-## `/docs/`
+## [`docs`](../docs/project_structure.md)
 
 This folder contains the documentation for this project.
 
-## `/data-assets/`
+---
+
+## `data-assets`
 
 This folder contains our data assets. It contains the following sub-folders:
 
@@ -56,19 +57,47 @@ The links below show where we obtained these from:
 
 * [`Sonoma County (SoCo)`](https://data.sonomacounty.ca.gov/Government/Animal-Shelter-Intake-and-Outcome/924a-vesw/about_data)
 
-### `/bronze/`
+### [`/bronze/`](../data-assets/bronze/dallas_df.parquet)
 
 This folder contains the bronze data assets. These are parquet files containing the raw data from the source. Date columns are explicitely marked as dates to simplify downstream processing.
 
 
-### `/silver/`
+### [`/silver/`](../data-assets/silver/silver.parquet)
 
 This folder contains the silver data asset. This is a parquet file which contains cleaned and transformed data from bronze. 
 
-## `/notebooks/elt`
+### [`/gold/`](../data-assets/gold/gold.parquet)
+
+This folder contains the gols data assets. This is a parquet file which contains transformed data from silver. 
+
+
+## [`/notebooks/elt`](../data-assets/)
 
 This folder contains the following Notebooks, used for our Extract, Transform, Load (ELT) process.
 
 * [`1_bronze.ipynb`](../notebooks/elt/1_bronze.ipynb)
 * [`2_silver.ipynb`](../notebooks/elt/2_silver.ipynb)
 * [`3_gold.ipynb`](../notebooks/elt/3_gold.ipynb)
+
+
+<div>
+
+```mermaid
+flowchart LR
+    A([Bronze])
+    %% Bronze styling - brown/bronze color
+    style A fill:#cd7f32,stroke:#8b4513,stroke-width:3px,color:#fff
+    B([Silver])
+    %% Silver styling - silver/gray color
+    style B fill:#c0c0c0,stroke:#708090,stroke-width:3px,color:#000
+    C([Gold])
+    %% Gold styling - gold/yellow color
+    style C fill:#ffd700,stroke:#b8860b,stroke-width:3px,color:#000
+
+    A --> B
+    B --> C
+```
+
+<div>
+
+---
