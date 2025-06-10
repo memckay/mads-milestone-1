@@ -17,24 +17,27 @@ To get started, you can run the commands below to setup a Virtual Environment us
 If needed, install conda below:
 
 ``` bash
+# Install miniconda using homebrew (light version of conda)
 brew install miniconda
-conda init zsh
+# Initialize conda on your shell
+conda init zsh # replace 'zsh' with your shell (bash, zsh, ...)
 
+# Change the base python to use 3.12, as 3.13 has compatibility issues with common libraries
 conda install python=3.12 -n base
+# Activate the base python (3.12)
 conda activate base
 ```
 
 Then, you can run:
 
 ``` bash
-chmod +x .init.sh
-
-./.init.sh
+pip install -r requirements.txt
 ```
 
-This will install the `ipykernel` so that your local environment works properly. Any other virtual environment tooling can be used, if prefered.
+This will install the `ipykernel` so that your local environment works properly. Any other virtual environment tooling can be used, if prefered. This also installs `ruff` for linting, `pre-commit` to enforce linting, and other packages for the notebooks.
 
-This will also pre-install packages defined in your `requirements.txt` file.
+Make sure your IDE/Notebook is using the conda base python's kernel.
+
 
 # Docs
 
