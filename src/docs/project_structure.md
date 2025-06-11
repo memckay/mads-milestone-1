@@ -18,7 +18,7 @@ This file contains the README for the project.
 
 This file contains the License, Terms, and Agreements for all using this project. We are using the MIT license.
 
-## [`docs`](../../docs/project_structure.md)
+## [`docs`](./project_structure.md)
 
 This folder contains the documentation for this project.
 
@@ -81,17 +81,17 @@ The links below show where we obtained these from:
 
 * [`Sonoma County (SoCo)`](https://data.sonomacounty.ca.gov/Government/Animal-Shelter-Intake-and-Outcome/924a-vesw/about_data)
 
-#### [`bronze/`](./data/bronze/dallas_df.parquet)
+#### [`bronze/`](../data/bronze/dallas_df.parquet)
 
 This folder contains the bronze data assets. These are parquet files containing the raw data from the source. Date columns are explicitely marked as dates to simplify downstream processing.
 
 
-#### [`silver/`](./data/silver/silver.parquet)
+#### [`silver/`](../data/silver/silver.parquet)
 
 This folder contains the silver data asset. This is a parquet file which contains cleaned and transformed data from bronze. 
 
-#### [`gold/`](./data/gold/gold.parquet)
+#### [`gold/`](../data/gold/dataframes/section1_1_df_adoption_by_species_region.parquet)
 
-This folder contains the gols data assets. This is a parquet file which contains transformed data from silver. 
+This folder contains the gold data assets. This is a parquet file which contains transformed data from silver. 
 
 ---
