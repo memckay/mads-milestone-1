@@ -92,6 +92,6 @@ This folder contains the silver data asset. This is a parquet file which contain
 
 #### [`gold/`](../data/gold/dataframes/section1_1_df_adoption_by_species_region.parquet)
 
-This folder contains the gold data assets. This is a parquet file which contains transformed data from silver. 
+This folder contains the gold data assets created and saved in the `visuals/` and `dataframes/` subfolders.
 
 ---
